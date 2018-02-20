@@ -12,10 +12,11 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/scan_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Scan Barcode" />
+            android:text="Scan Barcode"
+            android:onClick="scanBarCode"/>
 
         <TextView
             android:background="@color/colorAccent"
